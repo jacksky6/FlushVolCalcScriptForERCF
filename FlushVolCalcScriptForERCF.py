@@ -153,7 +153,7 @@ def main():
 
     TOOL_COLORS="FFFF00,80FFFF,FFFFFF,FF8000"
     PURGE_VOLUMES = generate_Flush_matrix(TOOL_COLORS)
-    print(f"\nDate: TOOL_COLORS={TOOL_COLORS} \nResult: PURGE_VOLUMES=%s" % PURGE_VOLUMES)
+    print(f"\nDate: TOOL_COLORS={TOOL_COLORS} \nResult: PURGE_VOLUMES={PURGE_VOLUMES}")
 
 
 
